@@ -37,11 +37,10 @@ public class CRUDProcesso {
 		return stmt.executeUpdate();
 	}
 	
-	public int modificaProvPrat(String modProvPrat) throws Exception {
+	public int update(String modProvPrat) throws Exception {
 		stmt = con.prepareStatement
-				("UPDATE TB_PROCESSO SET ST_PROVPRAT = ? WHERE ID = ?");
+				("UPDATE TB_PROCESSO SET ST_PROVPRAT = 'S/N' WHERE ID = ?");
 		stmt.setString(1, modProvPrat);
-		stmt.setString(2, modProvPrat);
 		return stmt.executeUpdate();
 	}
 
