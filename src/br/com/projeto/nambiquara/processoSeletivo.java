@@ -1,4 +1,4 @@
-package Nambiquara;
+package br.com.projeto.nambiquara;
 
 import java.io.Serializable;
 
