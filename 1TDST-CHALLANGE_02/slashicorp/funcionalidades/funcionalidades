@@ -1,0 +1,7 @@
+
+
+Funcionalidade AddPessoa funciona para adicionar uma pessoa ao banco de dados.
+AtualizaPessoa funciona para atualizar os dados das pessoas cadastrada no banco de dados.
+DeletePessoa apagará todos os dados da pessoa cadastrada no banco de dados.
+GetPessoa é a funcionalidade para buscar informações de uma pessoa cadastrada no banco.
+
